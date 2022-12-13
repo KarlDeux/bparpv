@@ -1,0 +1,19 @@
+{
+  "name": "app_runner_api",
+  "version": "1.0.0",
+  "description": "Rest API for App Runner",
+  "main": "index.js",
+  "scripts": {
+    "start": "ENVIRONMENT=$ENVIRONMENT node index.js",
+    "test": "jest"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.1256.0",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "jest": "^29.3.1",
+    "supertest": "^6.3.3"
+  }
+}
